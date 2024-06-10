@@ -20,10 +20,10 @@ export default function Header() {
             <Link className="site-logo" to="/">#VANLIFE</Link>
             <nav>
                 <NavLink
-                    to="/host"
+                    to="/vans"
                     style={({ isActive }) => isActive ? activeStyles : null}
                 >
-                    Host
+                    Vans
                 </NavLink>
                 <NavLink
                     to="/about"
@@ -32,10 +32,10 @@ export default function Header() {
                     About
                 </NavLink>
                 <NavLink
-                    to="/vans"
+                    to="/host"
                     style={({ isActive }) => isActive ? activeStyles : null}
                 >
-                    Vans
+                    Host
                 </NavLink>
                 <Link to="login" className="login-link">
                     <img
