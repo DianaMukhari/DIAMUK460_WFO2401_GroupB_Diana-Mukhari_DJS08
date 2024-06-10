@@ -1,6 +1,8 @@
 import React from "react"
 import { Link, NavLink } from "react-router-dom"
-import imageUrl from "/assets/images/about-hero.png"
+import imageUrl from "/assets/images/login.png"
+import HostLayout from "./HostLayout"
+import { activate } from "firebase/remote-config"
 
 export default function Header() {
     const activeStyles = {
